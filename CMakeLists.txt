@@ -3,7 +3,7 @@ project(HW1)
 
 set(CMAKE_CXX_STANDARD 17)
 
-include(cmake/utils)
+include(../../.github/cmake/utils)
 
 add_library(mtm_blockchain_lib
         Utilities.cpp
@@ -18,7 +18,7 @@ add_library(mtm_blockchain_lib
 target_include_directories(
         mtm_blockchain_lib
         PUBLIC
-        .
+        technion-utils/234124
 )
 
 add_executable(
